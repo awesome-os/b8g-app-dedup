@@ -1,0 +1,14 @@
+name: b8g-app-dedup CI
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Train & Verify 41.2 KB Offline App & Disk Deduplicator
+        run: |
+          node src/cli.mts train
+          node --test src/app-dedup.test.mts
