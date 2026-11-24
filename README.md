@@ -17,3 +17,13 @@ node --test src/app-dedup.test.mts
 
 ## License
 MIT
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Download latest release assets (all platforms)
+gh release download -R awesome-os/b8g-app-dedup --dir ./b8g-app-dedup-release
+
+# Or clone source directly (all platforms)
+git clone https://github.com/awesome-os/b8g-app-dedup.git && cd b8g-app-dedup
+```
