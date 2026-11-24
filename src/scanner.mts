@@ -357,7 +357,9 @@ export function scanDirectoryRoots(
 
       const measured = measureDirectoryReadOnly(frame.dirPath);
       skippedPaths += measured.skipped;
-      const classification = model.classifyPath(frame.dirPath);
+      const relPath = path.relative(frame.root, frame.dirPath);
+      const classifyTarget = relPath.length > 0 ? relPath : frame.dirPath;
+      const classification = model.classifyPath(classifyTarget);
 
       entries.push({
         path: frame.dirPath,
