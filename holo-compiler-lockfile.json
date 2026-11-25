@@ -1,0 +1,40 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/b8g-app-dedup",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/b8g-app-dedup/app-paths.b8p",
+      "kind": "b8p",
+      "version": "v0.3.0",
+      "target": "any",
+      "sha512": "842010c5b4f92cd621d057209a6b629af15275f0accd7bb563e1f1e110fe8ecd1f0f338763893747f8315870d45e3201e7e562806befda8ca062f5f1c21f49c7",
+      "size": 42192,
+      "executable": false,
+      "blob": "v11/files/84/842010c5b4f92cd621d057209a6b629af15275f0accd7bb563e1f1e110fe8ecd1f0f338763893747f8315870d45e3201e7e562806befda8ca062f5f1c21f49c7",
+      "url": "https://github.com/awesome-os/b8g-app-dedup/releases/download/v0.3.0/app-paths.b8p",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/b8g-app-dedup/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.3.0",
+      "target": "any",
+      "sha512": "a4fb6ace359a92ef3d3d255676ae26eb9b533c9232d317e0054688dbb6cb19e6c3d30405c8c64da36ea2a1aa65db5d5c13e4cee42c60767f29eee95641a2f0e4",
+      "size": 89,
+      "executable": false,
+      "blob": "v11/files/a4/a4fb6ace359a92ef3d3d255676ae26eb9b533c9232d317e0054688dbb6cb19e6c3d30405c8c64da36ea2a1aa65db5d5c13e4cee42c60767f29eee95641a2f0e4",
+      "url": "https://github.com/awesome-os/b8g-app-dedup/releases/download/v0.3.0/SHA256SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
