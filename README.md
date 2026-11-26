@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consolidated into https://github.com/awesome-os/agent-platform
+
 # b8g-app-dedup
 
 Find duplicate installed apps, hidden Electron copies, and build-cache bloat across your Windows, Linux, and macOS drives — **100% offline and strictly read-only**.
